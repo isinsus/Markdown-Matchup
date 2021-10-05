@@ -1,0 +1,110 @@
+body{
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    color: rgb(109, 12, 12);
+    margin: 0px;
+}
+
+
+h1 {
+    font-weight: 100;
+    font-size: 50px;
+
+}
+
+p#instruction{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.card.boldmarkdown {
+    background: center/cover url("bold-markdown.png");
+}
+
+.card.boldformat {
+    background: center/cover url("bold-format.png");
+}
+
+.card.italicsmarkdown {
+    background: center/cover url("italics-markdown.png");
+}
+
+.card.italicsformat {
+    background: center/cover url("italics-format.png");
+}
+
+.card.bulletmarkdown {
+    background: center/cover url("bullet-markdown.png");
+}
+
+.card.bulletformat {
+    background: center/cover url("bullet-format.png");
+}
+
+.card.codemarkdown {
+    background: center/cover url("code-markdown.png");
+}
+
+.card.codeformat {
+    background: center/cover url("code-format.png");
+}
+
+.card.h1markdown {
+    background: center/cover url("h1-markdown.png");
+}
+
+.card.h1format {
+    background: center/cover url("h1-format.png");
+}
+
+.card.h2markdown {
+    background: center/cover url("h2-markdown.png");
+}
+
+.card.h2format {
+    background: center/cover url("h2-format.png");
+}
+
+.card.linkmarkdown {
+    background: center/cover url("link-markdown.png");
+}
+
+.card.linkformat {
+    background: center/cover url("link-format.png");
+}
+
+.card.numbermarkdown {
+    background: center/cover url("number-markdown.png");
+}
+
+.card.numberformat {
+    background: center/cover url("number-format.png");
+}
+
+.card {
+    width: 130px;
+    min-width: 130px;
+    height: 130px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.card.back{
+    background: center/cover url("card-back.png");
+}
+
+
+#complete{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#complete:hover{
+    cursor: pointer;
+
+}
